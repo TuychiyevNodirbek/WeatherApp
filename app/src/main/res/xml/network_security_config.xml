@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network_security_config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">openweathermap.org/</domain>
+        <trust-anchors>
+            <sertificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network_security_config>
